@@ -2,7 +2,6 @@
 
 SwaggerUi.Views.HeaderView = Backbone.View.extend({
   events: {
-    'click #show-pet-store-icon'    : 'showPetStore',
     'click #show-wordnik-dev-icon'  : 'showWordnikDev',
     'click #explore'                : 'showCustom',
     'keyup #input_baseUrl'          : 'showCustomOnKeyup',
@@ -10,12 +9,6 @@ SwaggerUi.Views.HeaderView = Backbone.View.extend({
   },
 
   initialize: function(){},
-
-  showPetStore: function(){
-    this.trigger('update-swagger-ui', {
-      url:'http://petstore.swagger.io/v2/swagger.json'
-    });
-  },
 
   showWordnikDev: function(){
     this.trigger('update-swagger-ui', {
