@@ -1,0 +1,27 @@
+[
+  {
+    "id": "swagger",
+    "name": "Swagger Sample",
+    "schemaPath": "/schemas/swagger.json"
+  },
+  {
+    "id": "aem",
+    "name": "Adobe Experience Manager",
+    "schemaPath": "/schemas/aem.json"
+  },
+  {
+    "id": "moncierge",
+    "name": "Moncierge",
+    "schemaPath": "/schemas/moncierge.json"
+  },
+  {
+    "id": "catalog",
+    "name": "Catalog",
+    "schemaPath": "/schemas/catalog.json"
+  },
+  {
+    "id": "petstore",
+    "name": "Petstore",
+    "schemaPath": "/schemas/petstore.json"
+  }
+]
